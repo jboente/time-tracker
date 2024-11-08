@@ -1,0 +1,43 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+
+label, input, button {
+    margin-bottom: 10px;
+}
+
+#button-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.control {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.control:hover {
+    background-color: #357ABD;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Tracker App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Time Tracker App</h1>
+        <label for="task-name">Task/Project Name:</label>
+        <input type="text" id="task-name" placeholder="Enter task/project name">
+
+        <div id="button-group">
+            <button class="control" id="start">Start Counting Time</button>
+            <button class="control" id="stop">Stop Counting Time</button>
+            <button class="control" id="clear">Clear All</button>
+            <button class="control" id="commit">Commit Time-Count</button>
+        </div>
+
+        <div id="time-display">Time: 0s</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
